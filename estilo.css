@@ -1,0 +1,82 @@
+/* Estilos para la tabla de productos */
+
+.table-container {
+    width: 25%;
+    margin: 20px auto;
+   
+ }
+ 
+ /* Estilos para la tabla */
+ table {
+    width: 10%;
+    border-spacing: 0px;
+    border: 2px solid #e2dbdb;
+    border-radius: 1px;
+    overflow: hidden;
+    font-family: Arial, sans-serif;
+    
+ }
+ /* Estilos para las celdas de encabezado */
+ th {
+    background-color: #a8a9aa52;
+    border-bottom: 2px solid #c9c3c3;
+    padding: 12px;
+    text-align: center;
+ }
+ 
+ /* Estilos para las celdas de datos */
+ td {
+    border-bottom: 1px solid #dee4de;
+    padding: 12px;
+ }
+ 
+ /* Estilo alternativo para filas */
+ tr:nth-child(even) {
+    background-color: #faf4f4;
+ }
+ 
+ /* Estilo para la última fila */
+ tbody tr:last-child td {
+    border-bottom: none;
+    
+ }
+ 
+ /* Estilo para el encabezado de la tabla */
+ h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+ }
+ /* Estilo para el encabezado de la tabla */
+ h2 {
+   text-align: center;
+   margin-bottom: 20px;
+ }
+ /* Estilos para los botones de acción */
+ .action-button {
+   padding: 8px 16px;
+   font-size: 14px;
+   border: none;
+   cursor: pointer;
+   border-radius: 5px;
+   transition: background-color 0.3s ease;
+   background-color: #5ec75e;
+   color:#e9edf1
+ }
+ 
+ .edit-button {
+   background-color: #007bff;
+   color: #fff;
+   
+ }
+ 
+ .delete-button {
+   background-color: #dc3545;
+   color: #fff;
+  
+ }
+ 
+ .action-button:hover {
+   filter: brightness(90%);
+   background-color: #babeba;
+ } 
